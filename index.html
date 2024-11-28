@@ -1,0 +1,35 @@
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Calculadora de Média</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Média final do semestre</h1>
+
+    <form>
+      <label for="nome">Nome</label>
+      <input placeholder="Digite seu nome" type="text" id="nome">
+      <label for="nota1">Ava 1</label>
+      <input placeholder="Digite sua nota" type="number" id="nota1">
+      <label for="nota2">Ava 2</label>
+      <input placeholder="Digite sua nota" type="number" id="nota2">
+      <label for="nota3">Ava 3</label>
+      <input placeholder="Digite sua nota" type="number" id="nota3">
+    </form>
+
+    <div class="mediaFinal"></div>
+    <button type="button" onclick="calculadoraDeMedia()">Ver média final</button>
+  </div>
+  <footer>
+    <p>© 2024 Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
